@@ -1,0 +1,202 @@
+* {
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background: black;
+    font-size: 1.25em;
+    height: 100%;
+}
+
+header.banner {
+    border-bottom: 1px solid rgba(51, 168, 219);
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url("./assets/images/banner.png") fixed top center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header.banner .banner-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    width: 45%;
+    padding: 1em;
+}
+
+header.banner .banner-content .logo {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 1em;
+    width: 268px;
+    height: 268px;
+}
+
+header.banner .banner-content img {
+    display: block;
+    margin: 0 auto;
+}
+
+header.banner .banner-content h1 {
+    background: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;
+    font-size: 2em;
+    font-weight: 900;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+header.banner .banner-content p {
+    font-weight: 400;
+}
+
+header.banner .banner-content button {
+    background: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid transparent;
+    border-image: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1)) 1;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    padding: 1.25em 2.50em;
+    transition: background 2s linear; 
+}
+
+header.banner .banner-content button:hover {
+    background: rgba(21, 114, 183, 1);
+    -webkit-text-fill-color: #fff;
+    cursor: pointer;
+}
+
+section#course-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    gap: 1em;
+    padding: 10em;
+    text-align: center;
+    width: 45%;
+}
+
+section#course-content h2 {
+    color: rgba(51, 168, 219, 1);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+section#course-content .modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    width: 100%;
+}
+
+section#course-content .modules-list .module {
+    background: rgba(37, 37, 37, 1);
+    box-shadow: 1px 5px rgba(51, 168, 219);
+    border: 1px solid rgba(51, 168, 219, 1);
+    border-radius: 2em;
+    padding: 1em;
+}
+
+section#course-content .modules-list .module span {
+    color: rgba(51, 168, 219, 1);
+    font-weight: 700;
+}
+
+section#transform-world {
+    background: url("./assets/images/woman-code.png") fixed top center no-repeat;
+    background-size: cover;
+    border-top: 1px solid rgba(51, 168, 219, 1);
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+}
+
+section#transform-world p {
+    border: 1px solid white;
+    box-shadow: 10px 10px rgba(59, 168, 219, 1);
+    text-shadow: 3px 3px rgba(59, 168, 219, 1);
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+    text-transform: lowercase;
+    margin: 0 5%;
+    padding: 1em;
+    width: 17%;
+}
+
+section#professional-challenges {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    gap: 1em;
+    padding: 5em;
+    text-align: center;
+    width: 45%;
+}
+
+section#professional-challenges h2 {
+    color: rgba(51, 168, 219, 1);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+section#professional-challenges img {
+    display: block;
+    width: fit-content;
+}
+
+footer {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, 0.2));
+    border-top: 1px solid rgba(59, 168, 219, 1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1em;
+    padding: 3em;
+}
+
+footer img {
+    display: block;
+    width: fit-content;
+}
+
+footer a {
+    color: rgba(59, 168, 219, 1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
